@@ -292,8 +292,16 @@ HashMap.prototype = {
 		}
 	}
 
-	/* life.render("kaka", [
-	                     {
+	life.render("kaka", [
+{
+	text: '초등학교',
+	time:{
+		endYear: 2002,
+		startYear: 1996,
+		title: "14/12/2013-11/12/2013"
+	}
+},
+                  {
 					text: '네이버 인턴, 로그 분석 결과 시각화 프로젝트 | http://iamapark.github.io/intern_presentations',
 					time:{
 						endDate: 6,
@@ -304,9 +312,10 @@ HashMap.prototype = {
 						startYear: 2013,
 						title: "15/07/2013-06/12/2013"
 					}
-			}
-	                     ]); */
-	life.start();	                     
+				  }
+					
+	                     ]);
+	//life.start();	                     
 	
 	barClick = function(elem){
 		console.log('clicked!!');
