@@ -83,9 +83,9 @@ h1{
 	position: relative;
 	left: -2px;
 	background-color: rgba(255,255,255,.5);
-	width: 20px;
+	height: 20px;
 }
-#life .event:hover .time{
+#life .event .time:hover {
 	opacity: .5;
 	cursor: hand;
 }
@@ -264,7 +264,7 @@ HashMap.prototype = {
 				}
 			}
 			
-			return '<div class="event" style="margin-left: ' + offset.toFixed(2) + 'px"><div class="time" style="width: ' + width.toFixed(2) + 'px"></div><b>' + d.time.title + '</b> ' + d.text.split("|")[0] + '&nbsp;&nbsp;</div>';
+			return '<div class="event" style="margin-left: ' + offset.toFixed(2) + 'px"><div onClick="barClick(this);" class="time" style="width: ' + width.toFixed(2) + 'px"></div><b>' + d.time.title + '</b> ' + d.text.split("|")[0] + '&nbsp;&nbsp;</div>';
 			return '';
 		},
 		render: function(title, data){
@@ -306,6 +306,20 @@ HashMap.prototype = {
 			window.open(newTabLink, "_blank");
 		}
 	});
+	
+	var barClick = function(elem){
+		console.log('clicked!!');
+		$eventDiv = $(elem);
+		timeTitle = $($eventDiv.parent()).find('b').text();
+		
+		dataText = dataMap.get(timeTitle).text;
+		newTabLink = dataText.split("|")[1];
+		
+		if(newTabLink){
+			newTabLink = newTabLink.trim();
+			window.open(newTabLink, "_blank");
+		}
+	};
 	
 })();
 </script>
