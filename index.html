@@ -125,7 +125,6 @@ HashMap.prototype = {
 };
 </script>
 <script>
-(function(){
 	dataMap = new HashMap();
 	var life = {
 		$title: document.getElementById('title'),
@@ -293,7 +292,7 @@ HashMap.prototype = {
 		}
 	}
 
-	/* life.render("kaka", [
+	life.render("kaka", [
 	                     {
 					text: '네이버 인턴, 로그 분석 결과 시각화 프로젝트 | http://iamapark.github.io/intern_presentations',
 					time:{
@@ -306,8 +305,8 @@ HashMap.prototype = {
 						title: "15/07/2013-06/12/2013"
 					}
 			}
-	                     ]); */
-	life.start();	                     
+	                     ]);
+	//life.start();	                     
 	
 	barClick = function(elem){
 		console.log('clicked!!');
@@ -322,6 +321,4 @@ HashMap.prototype = {
 			window.open(newTabLink, "_blank");
 		}
 	};
-	
-})();
 </script>
