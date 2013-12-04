@@ -9,6 +9,6 @@
 - 08/2011-12/2011 인터넷 쇼핑몰 프로젝트
 - 03/2012-06/2012 mash up 서비스 개발
 - 05/2012-06/2012 음악 채팅 프로그램, MuChat 개발
-- 07/2012-09/2012 하이브리드앱 개발
+- 07/2012-09/2012 하이브리드앱 개발 | https://play.google.com/store/apps/details?id=com.smartteam.ax.newsholder&hl=ko
 - 03/2013-06/2013 웹 사이트 개발
 - 15/07/2013-06/12/2013 네이버 인턴, 로그 분석 결과 시각화 프로젝트 | http://iamapark.github.io/intern_presentations
