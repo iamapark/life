@@ -82,9 +82,12 @@ h1{
 	opacity: .3;
 	position: relative;
 	left: -2px;
+	background-color: rgba(255,255,255,.5);
+	width: 20px;
 }
 #life .event:hover .time{
 	opacity: .5;
+	cursor: hand;
 }
 </style>
 <header>
@@ -289,8 +292,7 @@ HashMap.prototype = {
 	}
 
 	life.start();
-})();
-
+	
 	$('.time').click(function(){
 		console.log('clicked!!');
 		$eventDiv = $(this);
@@ -304,4 +306,6 @@ HashMap.prototype = {
 			window.open(newTabLink, "_blank");
 		}
 	});
+	
+})();
 </script>
