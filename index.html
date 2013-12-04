@@ -121,7 +121,7 @@ HashMap.prototype = {
 </script>
 <script>
 (function(){
-	var dataMap = new HashMap();
+	dataMap = new HashMap();
 	var life = {
 		$title: document.getElementById('title'),
 		$el: document.getElementById('life'),
@@ -293,11 +293,11 @@ HashMap.prototype = {
 
 	$('.time').click(function(){
 		console.log('clicked!!');
-		var $eventDiv = $(this);
-		var timeTitle = $($eventDiv.parent()).find('b').text();
+		$eventDiv = $(this);
+		timeTitle = $($eventDiv.parent()).find('b').text();
 		
-		var dataText = dataMap.get(timeTitle).text;
-		var newTabLink = dataText.split("|")[1];
+		dataText = dataMap.get(timeTitle).text;
+		newTabLink = dataText.split("|")[1];
 		
 		if(newTabLink){
 			newTabLink = newTabLink.trim();
