@@ -87,9 +87,13 @@ h1{
 	background-color: rgba(255,255,255,.5);
 	height: 20px;
 }
-#life .event .time:hover {
+#life .event:hover {
 	opacity: .5;
 	cursor: Pointer;
+}
+.text{
+	position: absolute;
+	padding-top: 7px;
 }
 </style>
 <header>
@@ -265,7 +269,7 @@ HashMap.prototype = {
 				}
 			}
 			
-			return '<div class="event" style="margin-left: ' + offset.toFixed(2) + 'px"><div onClick="barClick(this);" class="time" style="width: ' + width.toFixed(2) + 'px"></div><span><b>' + d.time.title + '</b> ' + d.text.split("|")[0] + '&nbsp;&nbsp;</span></div>';
+			return '<div onClick="barClick(this);" class="event" style="margin-left: ' + offset.toFixed(2) + 'px"><div class="time" style="width: ' + width.toFixed(2) + 'px"></div><span class="text"><b>' + d.time.title + '</b> ' + d.text.split("|")[0] + '&nbsp;&nbsp;</span><br></div>';
 			return '';
 		},
 		render: function(title, data){
@@ -320,7 +324,7 @@ HashMap.prototype = {
 	barClick = function(elem){
 		console.log('clicked!!');
 		$eventDiv = $(elem);
-		timeTitle = $($eventDiv.parent()).find('b').text();
+		timeTitle = $($eventDiv).find('b').text();
 		
 		dataText = dataMap.get(timeTitle).text;
 		newTabLink = dataText.split("|")[1];
