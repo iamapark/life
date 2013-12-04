@@ -5,10 +5,11 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300">
 <style>
+ @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 *{
 	font-family: Open Sans, Helvetica, Arial, sans-serif;
 }
-body{
+body, span{
 	color: #fff;
 	background-color: #384047;
 	margin: 0;
@@ -16,6 +17,7 @@ body{
 	font-size: 12px;
 	-webkit-text-size-adjust: none;
 	position: relative;
+	font-family:'Nanum Gothic', sans-serif !important;
 }
 a{
 	color: #fff;
@@ -87,7 +89,7 @@ h1{
 }
 #life .event .time:hover {
 	opacity: .5;
-	cursor: hand;
+	cursor: Pointer;
 }
 </style>
 <header>
@@ -264,7 +266,7 @@ HashMap.prototype = {
 				}
 			}
 			
-			return '<div class="event" style="margin-left: ' + offset.toFixed(2) + 'px"><div onClick="barClick(this);" class="time" style="width: ' + width.toFixed(2) + 'px"></div><b>' + d.time.title + '</b> ' + d.text.split("|")[0] + '&nbsp;&nbsp;</div>';
+			return '<div class="event" style="margin-left: ' + offset.toFixed(2) + 'px"><div onClick="barClick(this);" class="time" style="width: ' + width.toFixed(2) + 'px"></div><span><b>' + d.time.title + '</b> ' + d.text.split("|")[0] + '&nbsp;&nbsp;</span></div>';
 			return '';
 		},
 		render: function(title, data){
@@ -278,7 +280,7 @@ HashMap.prototype = {
 			var html = '';
 			var days = 0;
 
-			for (var y=firstYear, age = 0; y<=nowYear+1; y++, age++){
+			for (var y=firstYear, age = 1; y<=nowYear+1; y++, age++){
 				html += '<section class="year" style="left: ' + (days*dayLength) + 'px">' +
 					y + ' (' + age + ')' +
 					'</section>';
@@ -291,23 +293,23 @@ HashMap.prototype = {
 		}
 	}
 
-	life.start();
+	/* life.render("kaka", [
+	                     {
+					text: '네이버 인턴, 로그 분석 결과 시각화 프로젝트 | http://iamapark.github.io/intern_presentations',
+					time:{
+						endDate: 6,
+						endMonth: 12,
+						endYear: 2013,
+						startDate: 15,
+						startMonth: 7,
+						startYear: 2013,
+						title: "15/07/2013-06/12/2013"
+					}
+			}
+	                     ]); */
+	life.start();	                     
 	
-	$('.time').click(function(){
-		console.log('clicked!!');
-		$eventDiv = $(this);
-		timeTitle = $($eventDiv.parent()).find('b').text();
-		
-		dataText = dataMap.get(timeTitle).text;
-		newTabLink = dataText.split("|")[1];
-		
-		if(newTabLink){
-			newTabLink = newTabLink.trim();
-			window.open(newTabLink, "_blank");
-		}
-	});
-	
-	var barClick = function(elem){
+	barClick = function(elem){
 		console.log('clicked!!');
 		$eventDiv = $(elem);
 		timeTitle = $($eventDiv.parent()).find('b').text();
