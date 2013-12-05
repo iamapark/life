@@ -1,12 +1,13 @@
 @iamapark's life
 ===============
 
-- 01/04/1989 안양에서 태어남
-- 1996-2001 초등학생
+- 01/04/1989 안양에서 태어남 | http://www.anyang.go.kr/main.jsp
+- 1996-2001 초등학생 | http://www.bakdal.es.kr/wah/main/index.htm
 - 11/11/1998 빼빼로를 한무더기 받음(마지막)
-- 2002-2004 중학생
-- 2005-2007 고등학생
-- 2008-~ 대학생
+- 2002-2004 중학생 | http://www.anyang.hs.kr/main.php
+- 2005-2007 고등학생 | http://www.anyang.hs.kr/main.php
+- 2008-~ 대학생 | http://www.kookmin.ac.kr/
+- 2008-2009 삼봉 조기축구회에서 후보로 활약
 - 08/2008-12/2008 처음으로 프로그래밍이란 걸 해봄
 - 07/04/2009-08/02/2011 군대 | http://mirror.enha.kr/wiki/%EC%A0%9C20%EA%B8%B0%EA%B3%84%ED%99%94%EB%B3%B4%EB%B3%91%EC%82%AC%EB%8B%A8
 - 08/2011-12/2011 인터넷 쇼핑몰 프로젝트
