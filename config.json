@@ -1,4 +1,9 @@
 {
 	"customStylesheetURL": null,
-	"yearLength": 120
+	"yearLength": 120,
+	"modalData":{
+		"2002-2004": "middle_school",
+		"15/07/2013-06/12/2013": "naver_intern",
+		"04/12/2013-11/12/2013": "jeniffer"
+	}
 }

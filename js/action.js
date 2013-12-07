@@ -1,4 +1,5 @@
-dataMap = new HashMap();
+var dataMap = new HashMap();
+var configData;
 var life = {
 	$title: document.getElementById('title'),
 	$el: document.getElementById('life'),
@@ -13,6 +14,8 @@ var life = {
 				var title = life.parseTitle(response);
 				life.render(title, data);
 			});
+		configData = config;
+		
 		});
 	},
 	loadConfig: function(fn){
@@ -138,7 +141,11 @@ var life = {
 			}
 		}
 		
-		return '<div onClick="barClick(this);" class="event" style="margin-left: ' + offset.toFixed(2) + 'px"><div class="time" style="width: ' + width.toFixed(2) + 'px"></div><span class="text"><b>' + d.time.title + '</b> ' + d.text.split("|")[0] + '&nbsp;&nbsp;</span><br></div>';
+		modalId = configData.modalData[d.time.title];
+		if(modalId)
+			modalId = "'"+modalId+"'";
+		
+		return '<div onClick="barClick(this, '+modalId+');" class="event" style="margin-left: ' + offset.toFixed(2) + 'px"><div class="time" style="width: ' + width.toFixed(2) + 'px"></div><span class="text"><b>' + d.time.title + '</b> ' + d.text.split("|")[0] + '&nbsp;&nbsp;</span><br></div>';
 		return '';
 	},
 	render: function(title, data){
@@ -163,43 +170,25 @@ var life = {
 		});
 		life.$el.innerHTML = html;
 	}
-}
+};
 
-/* life.render("kaka", [
-{
-	text: '초등학교',
-	time:{
-		endYear: 2002,
-		startYear: 1996,
-		title: "14/12/2013-11/12/2013"
-	}
-},
-                  {
-					text: '네이버 인턴, 로그 분석 결과 시각화 프로젝트 | http://iamapark.github.io/intern_presentations',
-					time:{
-						endDate: 6,
-						endMonth: 12,
-						endYear: 2013,
-						startDate: 15,
-						startMonth: 7,
-						startYear: 2013,
-						title: "15/07/2013-06/12/2013"
-					}
-				  }
-					
-	                     ]); */
 life.start();	                     
 
-barClick = function(elem){
-	console.log('clicked!!');
-	$eventDiv = $(elem);
-	timeTitle = $($eventDiv).find('b').text();
+barClick = function(elem, modalId){
 	
-	dataText = dataMap.get(timeTitle).text;
-	newTabLink = dataText.split("|")[1];
-	
-	if(newTabLink){
-		newTabLink = newTabLink.trim();
-		window.open(newTabLink, "_blank");
+	if(modalId){
+		console.log(modalId);
+		$.facybox({ajax:'modal/'+modalId+'.html'});
+	}else{
+		$eventDiv = $(elem);
+		timeTitle = $($eventDiv).find('b').text();
+		
+		dataText = dataMap.get(timeTitle).text;
+		newTabLink = dataText.split("|")[1];
+		
+		if(newTabLink){
+			newTabLink = newTabLink.trim();
+			window.open(newTabLink, "_blank");
+		}
 	}
 };
