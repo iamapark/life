@@ -15,9 +15,10 @@
 - 12/2011 개발자가 되어야겠다는 꿈을 가짐
 - 03/2012-06/2012 mash up 서비스 개발
 - 05/2012-06/2012 음악 채팅 프로그램, MuChat 개발
-- 07/2012-09/2012 하이브리드앱 개발 | https://play.google.com/store/apps/details?id=com.smartteam.ax.newsholder&hl=ko
+- 06/2012-07/2012 안드로이드 앱 개발(대학생 팀 프로젝트 관리 앱)
+- 07/2012-09/2012 하이브리드앱 개발(뉴스모아보기 앱-NewsHolder) | https://play.google.com/store/apps/details?id=com.smartteam.ax.newsholder&hl=ko
 - 03/2013-06/2013 NHN SW 멤버십 예비과정(웹 사이트 개발-EasyMark) | http://www.easymark.pe.kr
 - 14/04/2013-~ 블로그 운영 | http://iamapark89.wordpress.com/
-- 30/06/2013-~ 안드로이드 앱 개발(과외 중계 서비스 앱) | http://getbanana.webflow.com/
+- 30/06/2013-~ 안드로이드 앱 개발(과외 중계 서비스 앱-쌤통) | http://getbanana.webflow.com/
 - 15/07/2013-06/12/2013 네이버 인턴, 로그 분석 결과 시각화 프로젝트 | http://iamapark.github.io/intern_presentations
 - 04/12/2013-11/12/2013 제니퍼소프트 '다빈치' 입사 지원서 작성 | http://iamapark.github.io/life/
