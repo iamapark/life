@@ -2,14 +2,15 @@
 
 #facybox {
 	position: absolute;
-	top: 0;
-	left: 0;
 	margin: -20px 0 0 -20px;
 	z-index: 100;
 	text-align: left;
 	padding: 18px;
 	min-width: 40px;
 	min-height: 40px;
+	left: 2300px !important;
+	color: black;
+	width: 100%;
 }
 #facybox .w,  #facybox .e, #facybox  .nw,
 #facybox .ne, #facybox .sw, #facybox .se {
@@ -46,11 +47,12 @@
 
 #facybox .close {
 	position: absolute;
-	top: 5px;
-	right: 0;
+	top: 3px;
+	/* right: 0; */
 	display: block;
 	width: 30px;
 	height: 30px;
+	left: 0;
 }
 
 #facybox .prev,
