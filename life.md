@@ -16,7 +16,7 @@
 - 03/2012-06/2012 mash up 서비스 개발
 - 05/2012-06/2012 음악 채팅 프로그램, MuChat 개발
 - 06/2012-07/2012 안드로이드 앱 개발(대학생 팀 프로젝트 관리 앱)
-- 07/2012-09/2012 하이브리드앱 개발(뉴스모아보기 앱-NewsHolder) | https://play.google.com/store/apps/details?id=com.smartteam.ax.newsholder&hl=ko
+- 07/2012-09/2012 KT 에코노베이션 하이브리드앱 전문가 과정 수장(뉴스모아보기 앱-NewsHolder) | https://play.google.com/store/apps/details?id=com.smartteam.ax.newsholder&hl=ko
 - 03/2013-06/2013 NHN SW 멤버십 예비과정(웹 사이트 개발-EasyMark) | http://www.easymark.pe.kr
 - 14/04/2013-~ 블로그 운영 | http://iamapark89.wordpress.com/
 - 30/06/2013-~ 안드로이드 앱 개발(과외 중계 서비스 앱-쌤통) | http://getbanana.webflow.com/
