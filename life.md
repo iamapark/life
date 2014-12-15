@@ -4,7 +4,7 @@
 - 01/04/1989 안양에서 태어남 | http://www.anyang.go.kr/main.jsp
 - 1996-2001 초등학생 | http://www.bakdal.es.kr/wah/main/index.htm
 - 11/11/1998 빼빼로를 한무더기 받음(마지막)  | http://mirror.enha.kr/wiki/%EB%B9%BC%EB%B9%BC%EB%A1%9C%20%EB%8D%B0%EC%9D%B4
-- 2002-2004 중학생 | http://www.anyang.hs.kr/main.php
+- 2002-2004 중학생 | http://www.anyang.ms.kr/wah/main/index.htm
 - 2005-2007 고등학생 | http://www.anyang.hs.kr/main.php
 - 12/2007 첫 해외 여행(태국), 사이먼 카바레쇼 관람
 - 02/2008-02/2014 대학생 | http://www.kookmin.ac.kr/
