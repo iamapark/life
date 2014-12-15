@@ -7,7 +7,7 @@
 - 2002-2004 중학생 | http://www.anyang.hs.kr/main.php
 - 2005-2007 고등학생 | http://www.anyang.hs.kr/main.php
 - 12/2007 첫 해외 여행(태국), 사이먼 카바레쇼 관람
-- 2008-~ 대학생 | http://www.kookmin.ac.kr/
+- 02/2008-02/2014 대학생 | http://www.kookmin.ac.kr/
 - 2008 삼봉 조기축구회에서 후보로 활약
 - 08/2008-12/2008 첫 프로그래밍 
 - 07/04/2009-08/02/2011 군대 | http://mirror.enha.kr/wiki/%EC%A0%9C20%EA%B8%B0%EA%B3%84%ED%99%94%EB%B3%B4%EB%B3%91%EC%82%AC%EB%8B%A8
