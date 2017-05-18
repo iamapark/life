@@ -19,9 +19,9 @@
 - 07/2012-09/2012 KT 에코노베이션 하이브리드앱 전문가 과정 수장(뉴스모아보기 앱-NewsHolder) | https://play.google.com/store/apps/details?id=com.smartteam.ax.newsholder&hl=ko
 - 03/2013-06/2013 NHN SW 멤버십 예비과정(웹 사이트 개발-EasyMark) | http://www.easymark.pe.kr
 - 14/04/2013-~ 블로그 운영 | http://iamapark89.wordpress.com/
-- 30/06/2013-~ 안드로이드 앱 개발(과외 중계 서비스 앱-쌤통) | https://play.google.com/store/apps/details?id=com.ssamtong.activity
+- 30/06/2013-01/01/2016 안드로이드 앱 개발(과외 중계 서비스 앱-쌤통) | https://play.google.com/store/apps/details?id=com.ssamtong.activity
 - 15/07/2013-06/12/2013 네이버 인턴, 로그 분석 결과 시각화 프로젝트
 - 04/12/2013-11/12/2013 제니퍼소프트 '다빈치' 입사 지원서 작성 | http://iamapark.github.io/life/
 - 09/02/2014-30/09/2016~ LINE+에서 LINE Rangers 서버 개발
 - 09/09/2014-13/09/2014 두 번째 해외 여행(태국), 마사지3번 받음
-- 10/01/2016-Swingvy Server Engineer
+- 10/01/2016-~ Swingvy Server Engineer
