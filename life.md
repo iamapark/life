@@ -24,4 +24,4 @@
 - 04/12/2013-11/12/2013 제니퍼소프트 '다빈치' 입사 지원서 작성 | http://iamapark.github.io/life/
 - 09/02/2014-30/09/2016 LINE+에서 LINE Rangers 서버 개발
 - 09/09/2014-13/09/2014 두 번째 해외 여행(태국), 마사지3번 받음
-- 10/01/2016-~ Swingvy Server Engineer
+- 01/10/2016-~ Swingvy Server Engineer
